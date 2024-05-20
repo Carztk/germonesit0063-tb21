@@ -1,0 +1,43 @@
+.container {
+    width: 100%;
+    margin: 30px auto;
+    padding: 100px;
+    border: 1px solid red;
+
+}
+
+.card {
+    width: 250px;
+    border: 1px solid yellow;
+    text-align: center;
+    box-shadow: 15px 15px 15px yellow;
+    border-style: solid;
+    border-radius: 25px;
+    position: relative;
+}
+
+.image {
+    background-image: url(lastball.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+    
+}
+
+.details {
+    background-color: rgb(253, 253, 91);
+    border-radius: 25px;
+}
+
+.name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.type {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: black;
+}
+
+
