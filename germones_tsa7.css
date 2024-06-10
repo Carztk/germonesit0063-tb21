@@ -1,0 +1,383 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+.top {
+    background-color: #c34222;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+}
+
+
+
+
+.logo img {
+    height: 60px;
+    margin-left: 20px;
+}
+
+
+
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+
+
+
+.nav-list li {
+    margin-left: 30px;
+}
+
+
+
+
+.nav-a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: 0.5s all ease;
+}
+
+
+
+
+.nav-a:hover {
+    color: yellow;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+
+
+
+main .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto;
+    gap: 15px;
+    padding: 10px;
+    background-image: url(https://wallpapers.com/images/featured/chainsaw-man-6zhr96v1eo9fidla.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.bigpic {
+    display: flex;
+    grid-column: 1 / 3;
+}
+
+
+
+
+.bigpic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 5px 5px;
+}
+
+
+
+
+.smallpic {
+    display: flex;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+
+
+
+.smallpic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 5px 5px;
+}
+
+
+
+
+.episode {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    color: black;
+    border: 4px solid #ff3821;
+    border-radius: 20px;
+    box-shadow:6px 6px ;
+    background-image: url(https://chainsawman.dog/tvseries/episodes/img/01_3.jpg);
+    background-size: cover;
+}
+
+
+
+
+h2.title {
+    display: flex;
+    font-size: 1.5rem;
+    align-self: center;
+
+
+
+
+}
+
+
+
+
+p.deets {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+    text-align: justify;
+    line-height: 25px;
+    font-weight: bold;
+    background-color: rgba(255, 228, 196, 0.541);
+    border-radius: 6px;
+    padding: 10px;
+}
+
+
+
+
+.button-42 {
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter, -apple-system, system-ui, Roboto, "Helvetica Neue", Arial, sans-serif;
+    height: 40px;
+    line-height: 40px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 100%;
+    z-index: 9;
+    border: 0;
+    transition: box-shadow .2s;
+    font-size: 1rem;
+}
+
+
+
+
+.button-42:hover {
+    box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+}
+
+
+
+
+.news {
+    display: flex;
+    flex-direction: column;
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
+    gap: 10px;
+    background-image: url(https://image.winudf.com/v2/image1/Y29tLldhcnNTdHVkaW8ubWFraW1hX3NjcmVlbl82XzE2MjU0NDkyNDhfMDcx/screen-6.jpg?fakeurl=1&type=.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+
+
+
+.news-article {
+    background-color: gray;
+    padding: 10px;
+    border: 2px solid black;
+    box-shadow: 5px 5px black;
+    border-radius: 5px;
+}
+
+
+
+
+.news-header {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    align-self: center;
+    background-color: gray;
+    box-shadow: 5px 5px black;
+    border-radius: 5px;
+    color: black;
+    padding: 5px;
+}
+
+
+
+
+.news-h2 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    text-align: center;
+    color: black;
+}
+
+
+
+
+.news-p {
+    font-size: 1rem;
+    text-align: justify;
+    padding: 2px;
+}
+
+.hunters {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    border: 4px solid #ff3821;
+    color: white;
+    background-color: black;
+}
+
+.hunters:hover {
+    background-image: url(https://64.media.tumblr.com/818ad9a3f2a69778ea21e599d3570366/80da109e77833aef-79/s540x810/a91f4722f46958ad28ae29e31f0b13af0bbebfc3.gif);
+}
+
+.hunters.denji {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+
+}
+
+.hunters.aki {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+
+
+
+.hunters.power {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+.hunters-img {
+    width: 30%;
+    height: 30%;
+
+}
+
+.ch-desc {
+    display: flex;
+    flex-direction: column;
+    line-height: 45px;
+    margin-left: 20px;
+}
+
+@media (max-width: 1160px) {
+    main .container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto auto auto;
+    }
+
+    .bigpic {
+        grid-column: 1 / 3;
+    }
+
+    .smallpic {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+
+    .episode {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+
+    .news {
+        grid-column: 1 / 3;
+        grid-row: 3 / 4;
+    }
+
+    .hunters.denji, .hunters.aki, .hunters.power {
+        grid-column: 1 / 3;
+        grid-row: auto;
+    }
+}
+@media (max-width: 850px) {
+    main .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .bigpic {
+        grid-column: 1 / 2;
+    }
+
+    .smallpic {
+        grid-column: 1 / 2;
+        grid-row: auto;
+    }
+
+    .episode {
+        grid-column: 1 / 2;
+        grid-row: auto;
+    }
+
+    .news {
+        grid-column: 1 / 2;
+        grid-row: auto;
+    }
+
+    .hunters.denji, .hunters.aki, .hunters.power {
+        grid-column: 1 / 2;
+        grid-row: auto;
+    }
+}
