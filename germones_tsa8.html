@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Simulator</title>
+    <link rel="stylesheet" href="germones_tsa8.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="controls">
+            <button class="reset-btn" onclick="resetFlexbox()">Reset Flexbox</button>
+            <div class="main-control">
+                <button class="label-btn">Gap</button>
+                <input type="number" id="gap" value="0" onchange="updateGap()">
+            </div>
+            <div class="main-control">
+                <button class="label-btn">Flex Direction</button>
+                <button class="control-btn" onclick="setFlexDirection('row')">Row</button>
+                <button class="control-btn" onclick="setFlexDirection('column')">Column</button>
+            </div>
+            <div class="main-control">
+                <button class="label-btn">Justify Content</button>
+                <button class="control-btn" onclick="setJustifyContent('flex-start')">Start</button>
+                <button class="control-btn" onclick="setJustifyContent('center')">Center</button>
+                <button class="control-btn" onclick="setJustifyContent('flex-end')">End</button>
+                <button class="control-btn" onclick="setJustifyContent('space-between')">Space Between</button>
+                <button class="control-btn" onclick="setJustifyContent('space-around')">Space Around</button>
+                <button class="control-btn" onclick="setJustifyContent('space-evenly')">Space Evenly</button>
+            </div>
+            <div class="main-control">
+                <button class="label-btn">Align Items</button>
+                <button class="control-btn" onclick="setAlignItems('flex-start')">Start</button>
+                <button class="control-btn" onclick="setAlignItems('center')">Center</button>
+                <button class="control-btn" onclick="setAlignItems('flex-end')">End</button>
+            </div>
+            <div class="main-control">
+                <button class="label-btn">Flex Grow</button>
+                <button class="control-btn" onclick="resetFlexGrow()">Reset</button>
+                <button class="control-btn" onclick="setFlexGrow(1, 1)">Box 1</button>
+                <input type="number" id="grow1" value="0" onchange="updateFlexGrow(1)">
+                <button class="control-btn" onclick="setFlexGrow(2, 1)">Box 2</button>
+                <input type="number" id="grow2" value="0" onchange="updateFlexGrow(2)">
+                <button class="control-btn" onclick="setFlexGrow(3, 1)">Box 3</button>
+                <input type="number" id="grow3" value="0" onchange="updateFlexGrow(3)">
+            </div>
+        </div>
+        <div class="flex-container" id="flexContainer">
+            <div class="flex-item" id="item1">1</div>
+            <div class="flex-item" id="item2">2</div>
+            <div class="flex-item" id="item3">3</div>
+        </div>
+    </div>
+    <script src="germones_tsa8.js"></script>
+</body>
+
+</html>

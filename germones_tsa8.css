@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* background-color: #f0f0f0; */
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    padding: 100px;
+    /* margin-right: 0px; */
+    box-sizing: border-box;
+    /* background-color: #f6aaaa; */
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI1NfRTZRGxIXm25gA9nqgQbtD0GDYWMssfA&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    background-color: pink;
+    background-size: cover;
+    border: 5px solid #f80061;
+    /* box-shadow: 4px 4px #f80061 ; */
+    border-radius: 8px;
+    width: 800px;
+    height: 600px;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+}
+
+.main-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.label-btn,
+.control-btn,
+.reset-btn {
+    background-color: #f35554;
+    color: white;
+    padding: 10px;
+    gap: 5px;
+    margin: 5px 0;
+    cursor: pointer;
+    border-radius: 40px;
+    border: solid #C90048;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    /* justify-content: space-evenly; */
+}
+
+
+.label-btn {
+    background-color: #f701a4;
+}
+
+input[type="number"] {
+    padding: 5px;
+    margin: 5px 0;
+    font-size: 14px;
+    width: 50%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.flex-container {
+    display: flex;
+    border: 5px solid pink;
+    /* box-shadow: 4px 4px pink; */
+    padding: 5px;
+    width: 500px;
+    height: 700px;
+    /* gap: 0px; */
+    /* margin-left: 20px; */
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #f80061;
+    align-items: center;
+}
+
+.flex-item {
+    padding: 40px;
+    /* margin: 2px 0; */
+    background-color: #f35554;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+#item1 {
+    background-color: #cc0f8f;
+}
+
+#item2 {
+    background-color: #ce9df6;
+}
+
+#item3 {
+    background-color: #d372b7;
+}
