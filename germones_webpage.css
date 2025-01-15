@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    overflow-y: auto;
+    background-color: #F0F2F5;
+}
+
+.container {
+    width: 90vw;
+    margin: 0 auto;
+    background-color: #F0F2F5;
+}
+
+
+.texts {
+    padding: 100px;
+    margin-top: 80px;
+}
+
+.textfb {
+    color: #4576ED;
+    font-family: HelveticaNeueW01-55Roma, HelveticaNeueW02-55Roma, HelveticaNeueW10-55Roma, sans-serif;
+    font-weight: bolder;
+    font-size: 100px;
+}
+
+.textsub {
+    color: black;
+    font-family: HelveticaNeueW01-55Roma, HelveticaNeueW02-55Roma, HelveticaNeueW10-55Roma, sans-serif;
+    font-weight: bold;
+    font-size: 30px ;
+}
+.form-container {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 800px;
+    align-items: normal;
+    
+}
+
+form input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.btn {
+    width: 90%;
+    padding: 10px;
+    background-color: #4576ed;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #365acb;
+}
+
+.forgot-password {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #4576ed;
+    cursor: pointer;
+}
+
+.create-account {
+    background-color: #42b72a;
+    margin-top: 20px;
+}
+
+.create-account:hover {
+    background-color: #36a420;
+}
